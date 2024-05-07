@@ -37,10 +37,10 @@ All your modules should have a documentation (python3 -c 'print(__import__("my_m
 All your classes should have a documentation (python3 -c 'print(__import__("my_module").MyClass.__doc__)')
 All your functions (inside and outside a class) should have a documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')
 A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
-More Info
-Parent class BaseCaching
+## More Info
+## Parent class BaseCaching
 All your classes must inherit from BaseCaching defined below:
-
+```
 $ cat base_caching.py
 #!/usr/bin/python3
 """ BaseCaching module
@@ -74,6 +74,7 @@ class BaseCaching():
         """ Get an item by key
         """
         raise NotImplementedError("get must be implemented in your cache class")
+```
 ## Tasks
 ## 0. Basic dictionary
 
