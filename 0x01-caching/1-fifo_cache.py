@@ -10,7 +10,7 @@ class FIFOCache(BaseCaching):
         """Initializes cache"""
         super().__init__()
         self.cache_data = OrderedDict()
-        
+
     def put(self, key, item):
         """Adds item to cache"""
         if key is None or item is None:
@@ -19,6 +19,7 @@ class FIFOCache(BaseCaching):
         if len(self.cache_data) > BaseCaching.MAX_ITEMS:
             first_key, _ = self.cache_data.popitem(False)
             print("DISCARD:", first_key)
+
     def get(self, key):
         """retrieves item by key"""
         return self.cache_data.get(key, None)
