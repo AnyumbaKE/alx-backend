@@ -7,12 +7,12 @@ from base_caching import BaseCaching
 
 class FIFOCache(BaseCaching):
     def __init__(self):
-        """Initializes cache"""
+        """Initializes the cache"""
         super().__init__()
         self.cache_data = OrderedDict()
 
     def put(self, key, item):
-        """Adds item to cache"""
+        """Adds item in the cache"""
         if key is None or item is None:
             return
         self.cache_data[key] = item
