@@ -1,6 +1,23 @@
-# Queueing System In JavaScript
+# 0x03. Queuing System in JS
+<table>
+<td>Back-end</td>
+<td>JavaScript</td>
+<td>ES6</td>
+<td>Redis</td>
+<td>NodeJS</td>
+<td>ExpressJS</td>
+<td>Kue</td>
+</table>
 
 This project contains tasks for learning to create a queueing system in JavaScript.
+
+## Resources
+### Read or watch:
+
++ [Redis quick start](https://redis.io/docs/latest/integrate/)
++ [Redis client interface](https://redis.io/docs/latest/develop/connect/cli/)
++ [Redis client for Node JS](https://github.com/redis/node-redis)
++ [Kue](https://github.com/Automattic/kue) deprecated but still use in the industry
 
 ## Tasks To Complete
 
